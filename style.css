@@ -1,0 +1,73 @@
+#one
+
+{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: solid blue 1px;
+    transform-origin: center;
+    transform: rotate(35deg);
+}
+
+p
+
+{
+    text-align: center;
+    transform: rotate(90deg);
+}
+#two
+
+{
+    float : right;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: solid black 1px;
+    transform: translate(-35px);
+}
+#two2
+
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: solid black 1px;
+}
+#three
+
+{
+    margin-left: 10rem;
+    width: 300px;
+    height: 300px;
+    background-color: purple;
+    border: solid black 1px;
+
+
+}
+#three3
+
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    background-color: red;
+    transform: scale(1.25,1.25);
+}
+
+#for
+{ margin-left:10rem;
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    border: solid black 1px;
+    transform: skewX(30deg) skewY(40deg);
+}
+@media screen  and (max-width: 350px){
+
+    #container
+    {
+        display: inline-block;
+    }
+
+}
